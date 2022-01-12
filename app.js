@@ -59,3 +59,41 @@ let nombreDePersona = 'gordon';
 /**
  * Esto es otro comentario en líneas continuas.
  */
+
+// Operadores
+// Aritméticos
+let numberOne = 60;
+let numberTwo = 100;
+
+let result1 = numberOne + numberTwo;
+let result2 = numberOne - numberTwo;
+let result3 = numberOne * numberTwo;
+let result4 = numberOne / numberTwo;
+let result5 = numberOne % numberTwo;
+
+console.log(result1);
+console.log(result2);
+console.log(result3);
+console.log(result4);
+console.log(result5);
+
+// Concatenación
+let completeName = nameuser + lastname;
+
+console.log(completeName);
+
+// De comparacion
+
+let comparacion1 = numberOne > numberTwo; // Mayor que
+let comparacion2 = numberOne < numberTwo; // Menor que
+let comparacion3 = numberOne == numberTwo; // Igual a
+let comparacion4 = numberOne != numberTwo; // Diferente a
+let comparacion5 = numberOne <= numberTwo; // Menor o igual a
+let comparacion6 = numberOne >= numberTwo; // Mayor o igual a
+
+console.log(comparacion1);
+console.log(comparacion2);
+console.log(comparacion3);
+console.log(comparacion4);
+console.log(comparacion5);
+console.log(comparacion6);

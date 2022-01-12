@@ -37,3 +37,25 @@ console.log("This is a string");
 console.log(10.4);
 console.log(true);
 console.log([1, 2, 3]);
+
+// Variables
+// var y let se diferencian en el alcance.
+var nameuser = "john";
+let lastname = "carter";
+
+nameuser = 'pepe';
+
+// const significa constante y no se puede cambiar el valor posteriormente
+const PI = 3.1415;
+console.log(PI);
+
+// Concepto camel case:Se empieza el nombre de una variable ccon minúscula,
+// luego, el inicio de cada palabra nueva se escribe con mayúsculas,
+// hace más amable la lectura de código. 
+
+let nombreDePersona = 'gordon';
+
+// Esto es un comentario
+/**
+ * Esto es otro comentario en líneas continuas.
+ */

@@ -1,0 +1,9 @@
+Se puede usar la consola para, por ejemplo, mostrar mensajes en ella
+    console.log("Hello world)
+
+También se pueden generar errores personalizados
+    console.error("Mi error customizado")
+    colsole.error("La aplicación ha fallado")
+
+Se pueden ejecutar estos comandos en la consola del navegador.
+Cada navegador tiene sus "Herramientas de desarrollo" y su forma de abrirlo.

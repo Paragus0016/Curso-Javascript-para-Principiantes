@@ -97,3 +97,44 @@ console.log(comparacion3);
 console.log(comparacion4);
 console.log(comparacion5);
 console.log(comparacion6);
+
+// Condicionales
+
+let passwordDB = 'pepe123';
+let inputIncorrecto = 'dsgwegbscs';
+let inputCorrecto = 'pepe123';
+let result = inputIncorrecto == passwordDB;
+// Se puede cambiar la variable inputCorrecto por input incorrecto para
+// ver el compoprtamiento del if
+
+if (result == true) {
+    console.log('login correcto');
+} else {
+    console.log('login incorrecto');
+}
+
+// Otro ejempo de condicional
+let puntuacion = 70;
+
+if (puntuacion > 30) {
+    console.log("Vas bien");
+} else if (puntuacion > 15) {
+    console.log("Sigue mejorando");
+} else {
+    console.log("Necesitas seguir este tutorial");
+}
+
+// Otro ejemplo condicional con switch
+
+let typeCard = 'Debid Card';
+
+switch (typeCard) {
+    case 'Debid Card':
+        console.log('This is a debid card');
+        break;
+    case 'Credit card':
+        console.log('This is a credit card');
+    default:
+        console.log('No cards');
+        break;
+}

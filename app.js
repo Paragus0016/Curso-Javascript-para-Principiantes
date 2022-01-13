@@ -138,3 +138,40 @@ switch (typeCard) {
         console.log('No cards');
         break;
 }
+
+// Bucles o iteradores
+
+let count = 50;
+
+// Iterador while con el contador disminuyendo
+while (count > 0) {
+    console.log('Hello world disminuyendo');
+    console.log(count);
+    count = count - 1;
+    count -= 1;
+    count--;
+}
+
+count = 0;
+// Iterador while con el contador aumentando
+while (count < 50) {
+    console.log('Hello world aumentando');
+    console.log(count);
+    count = count + 1;
+    count += 1;
+    count++;
+}
+
+// Cuidado con los bucles infinitos, pasan porque el criterio indicado
+// no tiene término.
+
+// Iterador for
+let names = ['ryan', 'joe', 'john'];
+for (let index = 0; index < names.length; index++) {
+    console.log(names[index]);
+}
+
+// Iterador for recorreidno el arreglo desde el indice maypr al índice menor.
+for (let index = names.length - 1; index >= 0; index--) {
+    console.log(names[index]);
+}

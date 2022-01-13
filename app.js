@@ -175,3 +175,28 @@ for (let index = 0; index < names.length; index++) {
 for (let index = names.length - 1; index >= 0; index--) {
     console.log(names[index]);
 }
+
+// Funciones
+
+// Función sin argumento
+function greeting() {
+    console.log('Hello world');
+}
+greeting();
+
+// Función con argumento
+function greetings(name) {
+    console.log(name);
+    console.log('Hello ' + name);
+}
+greetings('Markus');
+greetings('Kara');
+greetings('Connor');
+
+//  Función con multiples argumentos
+
+function add(n1, n2) {
+    console.log(n1 + n2);
+}
+add(3, 2);
+add(300, 200);
